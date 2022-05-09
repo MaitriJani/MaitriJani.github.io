@@ -67,4 +67,10 @@
     list-style: none;
     text-align: center;
     line-height- 1.5;
+    color: #219ebc;
   }
+ul:hover{
+  list-style: none;
+  color: #ffb703;
+  
+  
