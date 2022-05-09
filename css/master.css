@@ -3,20 +3,20 @@
 /* Text inside these asterisks and slashes are comments for human */
 
   a {
-    color: blue;
+    color: Blue;
     /* set the text color to blue here */
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
 
   a:hover {
-    color:white;
+    color:Black;
     /* set the text color to red here */
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
 
   body {
     /* set the background color here */
-    background: lightgrey;
+    background: white;
     /* set the text color to black here */
     color: black;
     /* set the font here */
@@ -64,7 +64,6 @@
 
   /* this controls how the bullet points in the resume page looks */
   ul {
-    display: table;
-    margin: 0 auto;
-    text-align: left;
+    list-style: none;
+    text-align: center;
   }
