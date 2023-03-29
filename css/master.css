@@ -2,7 +2,7 @@
 
 /* Text inside these asterisks and slashes are comments for human */
 
-  a {
+a {
     color: Blue;
     /* set the text color to blue here */
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
@@ -10,19 +10,15 @@
 
   a:hover {
     color:Black;
-    /* set the text color to red here */
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
 
   body {
-    /* set the background color here */
     background: white;
-    /* set the text color to black here */
     color: black;
-    /* set the font here */
     font-family: Arial, Helvetica,sans-serif;
-    /* set the text alignment here */
-    text-align: center;
+    margin: 100px;
+    /* text-align: center; */
    }
 
   footer {
@@ -33,12 +29,11 @@
   h1 {
     margin-bottom: 0.5rem;
     margin-top: 3rem;
+    text-align: center;
    }
 
   h2 {
-    /* set the text color of to #075AAB here */
     color: #075AAB;
-    /* set both the bottom margin and top margin to 2.5rem here */
     margin-bottom: 2.5rem;
     margin-top: 2.5rem;
    }
@@ -62,15 +57,33 @@
     margin-top: 3rem;
   }
 
-  /* this controls how the bullet points in the resume page looks */
-  ul {
-    list-style: none;
-    text-align: center;
-    line-height- 1.5;
+  li {
+    line-height: 1.5;
     color: #219ebc;
   }
-ul:hover{
-  list-style: none;
-  color: #ffb703;
-  
-  
+li:hover{
+    line-height: 1.5;
+    color: #ffb703;
+}
+
+img {
+    border-radius: 50px;
+    padding: 5px;
+    width: 50%;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+img:hover{
+    
+        transform: scale(1.1,1.1);
+}
+
+p{
+    text-align: center;
+}
+
